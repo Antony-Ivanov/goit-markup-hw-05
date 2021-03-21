@@ -149,6 +149,7 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: color 250ms var(--speed-anim);
 }
 
 .current::after {
@@ -174,6 +175,7 @@ img {
   padding-bottom: 32px;
   display: flex;
   align-items: center;
+  transition: color 250ms var(--speed-anim);
 }
 
 .tel-link:hover .tel-ikon {
@@ -222,6 +224,7 @@ img {
   padding-bottom: 32px;
   display: flex;
   align-items: center;
+  transition: color 250ms var(--speed-anim);
 }
 
 .head-list-item:not(:last-child) {
@@ -236,12 +239,14 @@ img {
   margin-right: 10px;
   align-items: center;
   fill: var(--color-text);
+  transition: fill 250ms var(--speed-anim);
 }
 
 .tel-ikon {
   margin-right: 10px;
   align-items: center;
   fill: var(--color-text);
+  transition: fill 250ms var(--speed-anim);
 }
 
 /* / header */
@@ -393,9 +398,6 @@ img {
 
   color: var(--white-color);
   text-align: center;
-  align-items: center;
-
-  /* color: #2f303a; */
 }
 
 .overlay-text-prod-box {
@@ -543,10 +545,12 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+  transition: border 250ms var(--speed-anim);
 }
 
 .clients-icon {
   fill: #afb1b8;
+  transition: fill 250ms var(--speed-anim);
 }
 
 .clients-link:hover,
