@@ -845,11 +845,17 @@ img {
   border-radius: 4px;
 }
 
-.close-btn-icon {
+/* .close-btn-icon {
   position: absolute;
   bottom: 50%;
   right: 50%;
   transform: translate(50%, 50%);
+  width: 18px;
+  height: 18px;
+} */
+
+.close-btn-icon {
+  position: absolute;
   width: 18px;
   height: 18px;
 }
@@ -861,9 +867,12 @@ img {
   background: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   right: 8px;
   top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .is-hidden {
